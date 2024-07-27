@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/MyQt6ThemePure/">
+    <file alias="Main.qml">/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/Main.qml</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/MyQt6ThemePure">/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/build/Desktop_Qt_6_7_0-Debug</file>
+
+  </qresource>
+</RCC>

@@ -1,0 +1,8 @@
+module MyQt6ThemePure
+linktarget appMyQt6ThemePureplugin
+optional plugin appMyQt6ThemePureplugin
+classname MyQt6ThemePurePlugin
+typeinfo appMyQt6ThemePure.qmltypes
+prefer :/qt/qml/MyQt6ThemePure/
+Main 1.0 Main.qml
+

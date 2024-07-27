@@ -1,0 +1,1 @@
+set(__QT_DEPLOY_TARGET_appMyQt6ThemePure_FILE /home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/build/Desktop_Qt_6_7_0-Debug/appMyQt6ThemePure)

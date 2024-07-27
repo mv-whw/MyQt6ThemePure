@@ -1,0 +1,10 @@
+-I
+/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/build/Desktop_Qt_6_7_0-Debug
+-I
+/home/qtnweb/Qt/6.7.0/gcc_64/./qml
+--resource
+/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/build/Desktop_Qt_6_7_0-Debug/.rcc/qmake_MyQt6ThemePure.qrc
+--resource
+/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/build/Desktop_Qt_6_7_0-Debug/.rcc/appMyQt6ThemePure_raw_qml_0.qrc
+--module
+MyQt6ThemePure

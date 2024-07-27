@@ -1,0 +1,39 @@
+module MyQt6ThemePure
+typeinfo appMyQt6ThemePure.qmltypes
+prefer :/qt/qml/MyQt6ThemePure/
+Main 1.0 Main.qml
+singleton MyTheme 1.0 MyTheme.qml
+MyApplicationWindow 1.0 BasicComponents/MyApplicationWindow.qml
+MyLabel 1.0 BasicComponents/MyLabel.qml
+MyRectangle 1.0 BasicComponents/MyRectangle.qml
+MyRippleMouseArea 1.0 BasicComponents/MyRippleMouseArea.qml
+MyButton 1.0 BasicComponents/MyButton.qml
+MyCheckBox 1.0 BasicComponents/MyCheckBox.qml
+MyColumn 1.0 BasicComponents/MyColumn.qml
+MyRow 1.0 BasicComponents/MyRow.qml
+MyFlow 1.0 BasicComponents/MyFlow.qml
+MyComboBox 1.0 BasicComponents/MyComboBox.qml
+MyDataCheckItem 1.0 BasicComponents/MyDataCheckItem.qml
+MyFlickable 1.0 BasicComponents/MyFlickable.qml
+MyFrame 1.0 BasicComponents/MyFrame.qml
+MyGroupBox 1.0 BasicComponents/MyGroupBox.qml
+MyImage 1.0 BasicComponents/MyImage.qml
+MyIcon 1.0 BasicComponents/MyIcon.qml
+MyBusyIndicator 1.0 BasicComponents/MyBusyIndicator.qml
+MyPage 1.0 BasicComponents/MyPage.qml
+MyProgresBar 1.0 BasicComponents/MyProgresBar.qml
+MySlider 1.0 BasicComponents/MySlider.qml
+MyRangeSlider 1.0 BasicComponents/MyRangeSlider.qml
+MySwitch 1.0 BasicComponents/MySwitch.qml
+MyTextField 1.0 BasicComponents/MyTextField.qml
+MyTextArea 1.0 BasicComponents/MyTextArea.qml
+MyComplexProgresBar 1.0 ComplexComponents/MyComplexProgresBar.qml
+MySelectCards 1.0 ComplexComponents/MySelectCards.qml
+MyTab 1.0 BasicComponents/MyTab.qml
+MyNormalTab 1.0 TabComponents/MyNormalTab.qml
+MySpecialTab 1.0 TabComponents/MySpecialTab.qml
+MyRectangleRipple 1.0 BasicComponents/MyRectangleRipple.qml
+MyMouseArea 1.0 BasicComponents/MyMouseArea.qml
+MyNormalTabControlHorizontal 1.0 TabComponents/MyNormalTabControlHorizontal.qml
+MyTabControl 1.0 TabComponents/MyTabControl.qml
+
