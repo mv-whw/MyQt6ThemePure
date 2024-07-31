@@ -8,7 +8,7 @@ MyRectangle {
     property int closingTabIndex: -1
     property color selectedTabColor: "white"
     property color notSelectedTabColor: "dodgerblue"
-    property color selectedTextAndIconColor: "dodgerblue"
+    property color selectedTextAndIconColor: "black"
     property color notSelectedTextAndIconColor: "white"
     // required property bool isHorizontalTabControl
     // required property bool usingClasicTabs

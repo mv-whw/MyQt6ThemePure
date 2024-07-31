@@ -59,7 +59,7 @@ MyRectangle {
         PropertyAnimation
         {
             id: rippledEffect
-            target: myRippleMouseArea.rippleRectangle
+            target: rippleRect
             duration: 250
             property: "width"
             from:0

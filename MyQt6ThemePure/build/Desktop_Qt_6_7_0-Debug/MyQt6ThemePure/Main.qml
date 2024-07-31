@@ -10,12 +10,12 @@ MyApplicationWindow {
 
 
     MyTabControlHorNormal{
-        realWidth: 200
+        width: parent.width
 
         Component.onCompleted: {
             addTab("test","",false)
             addTab("test3","",false)
-            deleteTab(1)
+            //deleteTab(1)
         }
     }
 }
