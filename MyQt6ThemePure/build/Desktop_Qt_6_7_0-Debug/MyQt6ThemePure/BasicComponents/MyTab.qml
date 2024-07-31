@@ -11,4 +11,5 @@ MyRectangleRipple {
     property color tabIconColorizationColor: "black"
     property color tabTitleColor: "black"
     property string ownerName: ""
+
 }

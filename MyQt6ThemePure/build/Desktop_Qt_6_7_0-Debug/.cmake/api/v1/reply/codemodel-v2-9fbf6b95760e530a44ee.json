@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-97ab1c30b8b1f630e03d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MyQt6ThemePure",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-24e18895c9118d408b55.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-b49ac6eb0cc6f0ff5a9c.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-cb20309cb616f900b2c5.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-e01e925c7182a4bc390f.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMyQt6ThemePure::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMyQt6ThemePure-Debug-a53cc608c22f9cbe7646.json",
+					"name" : "appMyQt6ThemePure",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMyQt6ThemePure_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMyQt6ThemePure_autogen-Debug-513baa28d2fd00097c4c.json",
+					"name" : "appMyQt6ThemePure_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMyQt6ThemePure_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMyQt6ThemePure_autogen_timestamp_deps-Debug-84380b97fc71df237b71.json",
+					"name" : "appMyQt6ThemePure_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMyQt6ThemePure_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMyQt6ThemePure_qmlimportscan-Debug-d8962e78eb3b5fb9158d.json",
+					"name" : "appMyQt6ThemePure_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMyQt6ThemePure_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMyQt6ThemePure_qmllint-Debug-b3a7a6d4551cc5210ea4.json",
+					"name" : "appMyQt6ThemePure_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMyQt6ThemePure_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMyQt6ThemePure_qmllint_json-Debug-9b594769cb6e9da88f47.json",
+					"name" : "appMyQt6ThemePure_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMyQt6ThemePure_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMyQt6ThemePure_qmllint_module-Debug-7a30a9ba25294dfb36b6.json",
+					"name" : "appMyQt6ThemePure_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMyQt6ThemePure_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMyQt6ThemePure_qmltyperegistration-Debug-948fc5fd030d725d66ca.json",
+					"name" : "appMyQt6ThemePure_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMyQt6ThemePure_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMyQt6ThemePure_tooling-Debug-46d320bd6757536a33d0.json",
+					"name" : "appMyQt6ThemePure_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/build/Desktop_Qt_6_7_0-Debug",
+		"source" : "/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

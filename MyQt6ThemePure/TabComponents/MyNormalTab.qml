@@ -2,6 +2,8 @@ import QtQuick
 import "../BasicComponents"
 import "../"
 
+
+
 MyTab
 {
     id: myNormalTab
@@ -12,7 +14,7 @@ MyTab
 
     MyRow
     {
-        realPading: 5
+        realPading: 0
         realSpacing: 5
         anchors.centerIn: parent
         MyIcon
@@ -63,4 +65,13 @@ MyTab
             }
         }
     }
+
+    MyMouseArea{
+        hoverEnabled: false
+        onClicked: {
+            if(!parent.isSelected)
+                parent.isSelected=true
+        }
+    }
 }
+

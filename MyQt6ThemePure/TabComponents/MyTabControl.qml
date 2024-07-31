@@ -10,30 +10,8 @@ MyRectangle {
     property color notSelectedTabColor: "dodgerblue"
     property color selectedTextAndIconColor: "dodgerblue"
     property color notSelectedTextAndIconColor: "white"
-    required property bool isHorizontalTabControl
-    required property bool usingClasicTabs
+    // required property bool isHorizontalTabControl
+    // required property bool usingClasicTabs
 
-    color: "transparent"
 
-    MyFlickable{
-        id: myTabControlFlick
-        property var tabsParent: myTabControl.isHorizontalTabControl? myTabControlRow:myTabControlColumn
-        MyRow{
-            id: myTabControlRow
-            visible: myTabControl.isHorizontalTabControl
-        }
-        MyColumn{
-            id: myTabControlColumn
-            visible: !myTabControl.isHorizontalTabControl
-        }
-    }
-
-    function addTab(title: string, icon:string):bool
-    {
-
-    }
-    function deleteTab(index: int): bool
-    {
-
-    }
 }

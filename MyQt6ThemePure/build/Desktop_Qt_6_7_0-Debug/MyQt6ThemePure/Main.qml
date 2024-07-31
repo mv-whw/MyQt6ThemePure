@@ -9,7 +9,13 @@ MyApplicationWindow {
     title: qsTr("Hello World")
 
 
-    MyColumn{
+    MyTabControlHorNormal{
+        realWidth: 200
 
+        Component.onCompleted: {
+            addTab("test","",false)
+            addTab("test3","",false)
+            deleteTab(1)
+        }
     }
 }

@@ -2,6 +2,8 @@ import QtQuick
 import "../BasicComponents"
 import "../"
 
+
+
 MyTab
 {
     id: myNormalTab
@@ -63,4 +65,13 @@ MyTab
             }
         }
     }
+
+    MyMouseArea{
+        hoverEnabled: false
+        onClicked: {
+            if(!parent.isSelected)
+                parent.isSelected=true
+        }
+    }
 }
+
