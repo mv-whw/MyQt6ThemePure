@@ -48,7 +48,43 @@ MyTabControl {
             "selectedTabTitleColor":myTabControlHorizontalNormal.selectedTextAndIconColor
 
         }
-        myNorHorFlick.normalTabs.push(myNorHorFlick.com.createObject(myNorHorTabContainer,comSet))
+        var objButton=myNorHorFlick.com.createObject(myNorHorTabContainer,comSet)
+        myNorHorFlick.normalTabs.push(objButton)
+        myNorHorFlick.normalTabs[myNorHorFlick.normalTabs.length-1].selectedItem.connect(function(){
+            myTabControlHorizontalNormal.setSelectedIndex(myTabControlHorizontalNormal.returnSelectedIndex(objButton))
+        })
+    }
+
+    function setSelectedIndex(index:int):bool
+    {
+        let buttonCount=myNorHorFlick.normalTabs.length
+        if(buttonCount===0)
+        {
+            myTabControlHorizontalNormal.selectedIndex=-1
+            return true
+        }
+        if(index<-1 || (buttonCount-1)<index)
+            return false
+
+        for(let i=0;i<buttonCount;i++)
+        {
+            if(i===index)
+            {
+                myTabControlHorizontalNormal.selectedIndex=i
+                myNorHorFlick.normalTabs[i].isSelected=true
+            }else
+                if(myNorHorFlick.normalTabs[i].isSelected===true)
+                    myNorHorFlick.normalTabs[i].isSelected=false
+        }
+    }
+
+    function returnSelectedIndex(button: MyNormalTab):int
+    {
+        let buttonLength=myNorHorFlick.normalTabs.length
+        for(let i=0;i<buttonLength;i++)
+            if(myNorHorFlick.normalTabs[i].tabTitle===button.tabTitle)
+                return i
+        return -1;
     }
 
 
