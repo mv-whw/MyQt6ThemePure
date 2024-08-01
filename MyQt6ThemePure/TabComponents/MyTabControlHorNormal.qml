@@ -76,6 +76,7 @@ MyTabControl {
                 if(myNorHorFlick.normalTabs[i].isSelected===true)
                     myNorHorFlick.normalTabs[i].isSelected=false
         }
+        return true
     }
 
     function returnSelectedIndex(button: MyNormalTab):int
