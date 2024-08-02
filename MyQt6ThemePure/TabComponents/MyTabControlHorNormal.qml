@@ -9,8 +9,6 @@ MyTabControl {
 
     property int widthOfTab: MyTheme.normalTabButtonHorWidth
 
-    //readonly property alias tabsCount: myNorHorTabContainer.children.length
-
     MyFlickable{
         id: myNorHorFlick
         flickVertical: false
@@ -20,11 +18,6 @@ MyTabControl {
         MyRow{
             id: myNorHorTabContainer
         }
-        // Component.onCompleted: {
-        //     com.color=com.isSelected? myTabControlHorizontalNormal.selectedTabColor:myTabControlHorizontalNormal.notSelectedTabColor
-        //     com.tabTitleColor= com.isSelected? myTabControlHorizontalNormal.selectedTextAndIconColor:myTabControlHorizontalNormal.notSelectedTextAndIconColor
-        //     com.tabIconColorizationColor=com.tabTitleColor
-        // }
     }
 
 
@@ -34,7 +27,7 @@ MyTabControl {
         var comSet={
             "tabTitle":title,
             "tabIconSource":iconSource,
-            "enableClosing":true,
+            "enableClosing":myTabControlHorizontalNormal.allowClosing,
             "realWidth":myTabControlHorizontalNormal.widthOfTab,
             "height":myTabControlHorizontalNormal.height,
             "realRadius":10,
@@ -53,6 +46,11 @@ MyTabControl {
         myNorHorFlick.normalTabs[myNorHorFlick.normalTabs.length-1].selectedItem.connect(function(){
             myTabControlHorizontalNormal.setSelectedIndex(myTabControlHorizontalNormal.returnSelectedIndex(objButton))
         })
+        myNorHorFlick.normalTabs[myNorHorFlick.normalTabs.length-1].close.connect(function(){
+            myTabControlHorizontalNormal.deleteCurrentTab()
+        })
+        if(isSelected)
+            myTabControlHorizontalNormal.setSelectedIndex(myNorHorFlick.normalTabs.length-1)
     }
 
     function setSelectedIndex(index:int):bool
@@ -89,19 +87,33 @@ MyTabControl {
     }
 
 
-    function deleteTab(index:int): bool
-    {
-        // myNorHorTabContainer.children[index].destroy()
-        // myNorHorFlick.normalTabs.pop()
-
-        // console.log("del mynormalTabsCount: "+myNorHorFlick.normalTabs.length)
-        // console.log("del mynorhorContainCOunt: "+myNorHorTabContainer.children.length)
+    function deleteCurrentTab():bool{
+        return myTabControlHorizontalNormal.deleteTab(myTabControlHorizontalNormal.selectedIndex)
     }
 
-    Timer
+    function deleteTab(index:int): bool
     {
-        id: tim
-        interval: 0
-        onTriggered: console.log("test")
+        if(index<0 || index>(myNorHorFlick.normalTabs.length-1))
+            return false
+        let array1=myNorHorFlick.normalTabs.slice(0,index)
+        let array2=myNorHorFlick.normalTabs.slice(index+1,myNorHorFlick.normalTabs.length)
+        myNorHorTabContainer.children[index].destroy()
+        myNorHorFlick.normalTabs=array1.concat(array2)
+        let buttonCount=myNorHorFlick.normalTabs.length
+        if(index===0)
+        {
+            if(buttonCount>0)
+                myTabControlHorizontalNormal.setSelectedIndex(0)
+        }
+        else
+        {
+            if(index===buttonCount)
+                myTabControlHorizontalNormal.setSelectedIndex(buttonCount-1)
+            else
+                myTabControlHorizontalNormal.setSelectedIndex(index)
+        }
+
+
+        return true
     }
 }

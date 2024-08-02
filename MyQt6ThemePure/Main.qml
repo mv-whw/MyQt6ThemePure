@@ -14,8 +14,7 @@ MyApplicationWindow {
 
         Component.onCompleted: {
             addTab("test","",false)
-            addTab("test3","",false)
-            //deleteTab(1)
+            addTab("test2","",false)
         }
     }
 }

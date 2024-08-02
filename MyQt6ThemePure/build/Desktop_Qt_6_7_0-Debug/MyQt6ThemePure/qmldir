@@ -34,7 +34,6 @@ MyNormalTab 1.0 TabComponents/MyNormalTab.qml
 MySpecialTab 1.0 TabComponents/MySpecialTab.qml
 MyRectangleRipple 1.0 BasicComponents/MyRectangleRipple.qml
 MyMouseArea 1.0 BasicComponents/MyMouseArea.qml
-MyNormalTabControlHorizontal 1.0 TabComponents/MyNormalTabControlHorizontal.qml
 MyTabControl 1.0 TabComponents/MyTabControl.qml
 MyTabControlHorNormal 1.0 TabComponents/MyTabControlHorNormal.qml
 

@@ -50,7 +50,7 @@ qt_add_qml_module(appMyQt6ThemePure
         QML_FILES TabComponents/MySpecialTab.qml
         QML_FILES BasicComponents/MyRectangleRipple.qml
         QML_FILES BasicComponents/MyMouseArea.qml
-        QML_FILES TabComponents/MyNormalTabControlHorizontal.qml
+        QML_FILES
         QML_FILES
         QML_FILES TabComponents/MyTabControl.qml
         QML_FILES TabComponents/MyTabControlHorNormal.qml

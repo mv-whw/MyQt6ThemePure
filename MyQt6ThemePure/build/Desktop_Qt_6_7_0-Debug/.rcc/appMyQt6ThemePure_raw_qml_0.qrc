@@ -33,7 +33,6 @@
     <file alias="TabComponents/MySpecialTab.qml">/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/TabComponents/MySpecialTab.qml</file>
     <file alias="BasicComponents/MyRectangleRipple.qml">/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyRectangleRipple.qml</file>
     <file alias="BasicComponents/MyMouseArea.qml">/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyMouseArea.qml</file>
-    <file alias="TabComponents/MyNormalTabControlHorizontal.qml">/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/TabComponents/MyNormalTabControlHorizontal.qml</file>
     <file alias="TabComponents/MyTabControl.qml">/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/TabComponents/MyTabControl.qml</file>
     <file alias="TabComponents/MyTabControlHorNormal.qml">/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/TabComponents/MyTabControlHorNormal.qml</file>
   </qresource>
