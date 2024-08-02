@@ -10,7 +10,6 @@ MyApplicationWindow {
 
 
     MyTabControlHorNormal{
-        width: parent.width
 
         Component.onCompleted: {
             addTab("test","",false)

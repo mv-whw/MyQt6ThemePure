@@ -4,7 +4,7 @@ import "../"
 MyTabControl {
     id: myTabControlHorizontalNormal
     realHeight: MyTheme.normalTabControlHorHeight
-
+    width: parent.width
     color: "lightblue"
 
     property int widthOfTab: MyTheme.normalTabButtonHorWidth
