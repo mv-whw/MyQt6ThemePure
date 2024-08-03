@@ -6,7 +6,7 @@ MyTabControl {
     realHeight: MyTheme.normalTabControlHorHeight
     width: parent.width
     color: "lightblue"
-
+    allowClosing: true
     property int widthOfTab: MyTheme.normalTabButtonHorWidth
 
     MyFlickable{
@@ -39,7 +39,6 @@ MyTabControl {
             "notSelectedTabColor":myTabControlHorizontalNormal.notSelectedTabColor,
             "notSelectedTabTitleColor":myTabControlHorizontalNormal.notSelectedTextAndIconColor,
             "selectedTabTitleColor":myTabControlHorizontalNormal.selectedTextAndIconColor
-
         }
         var objButton=myNorHorFlick.com.createObject(myNorHorTabContainer,comSet)
         myNorHorFlick.normalTabs.push(objButton)

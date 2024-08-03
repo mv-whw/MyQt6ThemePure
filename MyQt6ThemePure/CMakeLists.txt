@@ -2,9 +2,11 @@ cmake_minimum_required(VERSION 3.29)
 
 project(MyQt6ThemePure VERSION 0.1 LANGUAGES CXX)
 
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt6 6.7 REQUIRED COMPONENTS Quick)
+find_package(Qt6 6.7 REQUIRED COMPONENTS Quick Svg)
 
 qt_standard_project_setup(REQUIRES 6.7)
 set_source_files_properties(MyTheme.qml PROPERTIES QT_QML_SINGLETON_TYPE ON)
@@ -54,6 +56,7 @@ qt_add_qml_module(appMyQt6ThemePure
         QML_FILES
         QML_FILES TabComponents/MyTabControl.qml
         QML_FILES TabComponents/MyTabControlHorNormal.qml
+        RESOURCES assets.qrc
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
@@ -68,7 +71,7 @@ set_target_properties(appMyQt6ThemePure PROPERTIES
 )
 
 target_link_libraries(appMyQt6ThemePure
-    PRIVATE Qt6::Quick
+    PRIVATE Qt6::Quick Qt::Svg
 )
 
 include(GNUInstallDirs)

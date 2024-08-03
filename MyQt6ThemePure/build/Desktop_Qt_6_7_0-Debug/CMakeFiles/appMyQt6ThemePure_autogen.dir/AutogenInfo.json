@@ -1121,13 +1121,23 @@
 		"/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Quick/Qt6QuickAdditionalTargetInfo.cmake",
 		"/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Quick/Qt6QuickVersionlessTargets.cmake",
 		"/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Quick/Qt6QuickPlugins.cmake",
+		"/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Svg/Qt6SvgConfigVersion.cmake",
+		"/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Svg/Qt6SvgConfigVersionImpl.cmake",
+		"/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Svg/Qt6SvgConfig.cmake",
+		"/home/qtnweb/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Svg/Qt6SvgDependencies.cmake",
+		"/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Svg/Qt6SvgTargets.cmake",
+		"/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Svg/Qt6SvgTargets-relwithdebinfo.cmake",
+		"/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Svg/Qt6SvgAdditionalTargetInfo.cmake",
+		"/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Svg/Qt6SvgVersionlessTargets.cmake",
 		"/home/qtnweb/Qt/Tools/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
 		"/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
 		"/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"/home/qtnweb/Qt/Tools/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
 		"/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
-		"/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/build/Desktop_Qt_6_7_0-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appMyQt6ThemePure.cmake"
+		"/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/build/Desktop_Qt_6_7_0-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appMyQt6ThemePure.cmake",
+		"/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/assets.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure",
 	"CROSS_CONFIG" : false,
@@ -1147,7 +1157,8 @@
 		"QT_QMLINTEGRATION_LIB",
 		"QT_QMLMODELS_LIB",
 		"QT_QML_LIB",
-		"QT_QUICK_LIB"
+		"QT_QUICK_LIB",
+		"QT_SVG_LIB"
 	],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -1176,6 +1187,7 @@
 		"/home/qtnweb/Qt/6.7.0/gcc_64/include/QtGui",
 		"/home/qtnweb/Qt/6.7.0/gcc_64/include/QtQmlModels",
 		"/home/qtnweb/Qt/6.7.0/gcc_64/include/QtOpenGL",
+		"/home/qtnweb/Qt/6.7.0/gcc_64/include/QtSvg",
 		"/usr/include",
 		"/usr/include/c++/14",
 		"/usr/include/c++/14/x86_64-redhat-linux",

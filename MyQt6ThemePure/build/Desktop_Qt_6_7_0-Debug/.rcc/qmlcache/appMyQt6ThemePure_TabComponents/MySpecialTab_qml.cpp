@@ -611,51 +611,6 @@ if (aotContext->engine->hasError())
 // generate_Ret
 return r2_1;
 });}
- },{ 5, QMetaType::fromType<QVariant>(), {  }, 
-    [](const QQmlPrivate::AOTCompiledContext *context, void *data, void **argv) {
-        wrapCall(context, data, argv, [](const QQmlPrivate::AOTCompiledContext *aotContext, void **argumentsPtr) {
-Q_UNUSED(aotContext)
-Q_UNUSED(argumentsPtr)
-// expression for color at line 21, column 13
-QVariant r2_1;
-QObject *r2_0;
-// generate_LoadQmlContextPropertyLookup
-#ifndef QT_NO_DEBUG
-aotContext->setInstructionPointer(2);
-#endif
-while (!aotContext->loadContextIdLookup(9, &r2_0)) {
-#ifdef QT_NO_DEBUG
-aotContext->setInstructionPointer(2);
-#endif
-aotContext->initLoadContextIdLookup(9);
-if (aotContext->engine->hasError())
-    return QVariant();
-}
-{
-}
-// generate_GetLookup
-#ifndef QT_NO_DEBUG
-aotContext->setInstructionPointer(4);
-#endif
-r2_1 = QVariant(aotContext->lookupResultMetaType(10));
-while (!aotContext->getObjectLookup(10, r2_0, r2_1.data())) {
-#ifdef QT_NO_DEBUG
-aotContext->setInstructionPointer(4);
-#endif
-aotContext->initGetObjectLookup(10, r2_0, r2_1.metaType());
-if (aotContext->engine->hasError())
-    return QVariant();
-r2_1 = QVariant(aotContext->lookupResultMetaType(10));
-}
-{
-}
-{
-}
-// generate_Ret
-if (!r2_1.isValid())
-    aotContext->setReturnValueUndefined();
-return r2_1;
-});}
  },{ 0, QMetaType::fromType<void>(), {}, nullptr }};
 QT_WARNING_POP
 }

@@ -1,5 +1,6 @@
 appMyQt6ThemePure_autogen/timestamp: \
 	/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/CMakeLists.txt \
+	/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/assets.qrc \
 	/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/build/Desktop_Qt_6_7_0-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appMyQt6ThemePure.cmake \
 	/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/build/Desktop_Qt_6_7_0-Debug/.qtc/package-manager/auto-setup.cmake \
 	/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
@@ -781,6 +782,14 @@ appMyQt6ThemePure_autogen/timestamp: \
 	/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets-relwithdebinfo.cmake \
 	/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets.cmake \
 	/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsVersionlessTargets.cmake \
+	/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Svg/Qt6SvgAdditionalTargetInfo.cmake \
+	/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Svg/Qt6SvgConfig.cmake \
+	/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Svg/Qt6SvgConfigVersion.cmake \
+	/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Svg/Qt6SvgConfigVersionImpl.cmake \
+	/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Svg/Qt6SvgDependencies.cmake \
+	/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Svg/Qt6SvgTargets-relwithdebinfo.cmake \
+	/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Svg/Qt6SvgTargets.cmake \
+	/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Svg/Qt6SvgVersionlessTargets.cmake \
 	/home/qtnweb/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXInformation.cmake \
 	/home/qtnweb/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	/home/qtnweb/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake \

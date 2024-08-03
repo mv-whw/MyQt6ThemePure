@@ -385,6 +385,9 @@ Qt6QuickTools_DIR:PATH=/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6QuickTools
 //The directory containing a CMake configuration file for Qt6Quick.
 Qt6Quick_DIR:PATH=/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Quick
 
+//The directory containing a CMake configuration file for Qt6Svg.
+Qt6Svg_DIR:PATH=/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6Svg
+
 //The directory containing a CMake configuration file for Qt6.
 Qt6_DIR:PATH=/home/qtnweb/Qt/6.7.0/gcc_64/lib/cmake/Qt6
 
