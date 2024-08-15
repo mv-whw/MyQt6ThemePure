@@ -9,6 +9,16 @@ MyTabControl {
     allowClosing: true
     property int widthOfTab: MyTheme.normalTabButtonHorWidth
 
+    onAllowClosingChanged: {
+        for(myNorHorFlick.normalTabs!==null)
+            if(myNorHorFlick.normalTabs.length>0)
+            {
+                let butCount=myNorHorFlick.normalTabs.length
+                for(let i=0;i<butCount;i++)
+                    myNorHorFlick.normalTabs[i].enableClosing=allowClosing
+            }
+    }
+
     MyFlickable{
         id: myNorHorFlick
         flickVertical: false
@@ -85,6 +95,10 @@ MyTabControl {
         return -1;
     }
 
+    function deleteAllTabsOfOwner(ownerName:string)
+    {
+        //TO-DO--------------------------------------------------------------
+    }
 
     function deleteCurrentTab():bool{
         return myTabControlHorizontalNormal.deleteTab(myTabControlHorizontalNormal.selectedIndex)

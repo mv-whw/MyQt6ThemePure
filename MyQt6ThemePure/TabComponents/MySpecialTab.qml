@@ -13,12 +13,14 @@ MyTab {
         MyIcon{
             source: mySpecialTab.tabIconSource
             useSourceSize: false
+            anchors.horizontalCenter: parent.horizontalCenter
             height: mySpecialTab.height/5*3
             colorizationColor: mySpecialTab.tabIconColorizationColor
         }
         MyLabel{
             text: mySpecialTab.tabTitle
             color: mySpecialTab.tabTitleColor
+            anchors.horizontalCenter: parent.horizontalCenter
         }
     }
 

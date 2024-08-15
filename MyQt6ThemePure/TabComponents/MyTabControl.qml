@@ -11,6 +11,4 @@ MyRectangle {
     property color notSelectedTextAndIconColor: "white"
     // required property bool isHorizontalTabControl
     // required property bool usingClasicTabs
-
-
 }

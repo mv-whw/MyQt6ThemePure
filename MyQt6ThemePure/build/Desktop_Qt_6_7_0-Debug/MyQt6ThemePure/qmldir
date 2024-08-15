@@ -36,4 +36,5 @@ MyRectangleRipple 1.0 BasicComponents/MyRectangleRipple.qml
 MyMouseArea 1.0 BasicComponents/MyMouseArea.qml
 MyTabControl 1.0 TabComponents/MyTabControl.qml
 MyTabControlHorNormal 1.0 TabComponents/MyTabControlHorNormal.qml
+MyTabControlHorSpecial 1.0 TabComponents/MyTabControlHorSpecial.qml
 

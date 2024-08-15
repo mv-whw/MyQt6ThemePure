@@ -57,6 +57,7 @@ qt_add_qml_module(appMyQt6ThemePure
         QML_FILES TabComponents/MyTabControl.qml
         QML_FILES TabComponents/MyTabControlHorNormal.qml
         RESOURCES assets.qrc
+        QML_FILES TabComponents/MyTabControlHorSpecial.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

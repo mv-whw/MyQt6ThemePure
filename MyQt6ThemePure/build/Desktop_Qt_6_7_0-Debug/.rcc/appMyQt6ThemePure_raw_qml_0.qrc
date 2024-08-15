@@ -35,6 +35,7 @@
     <file alias="BasicComponents/MyMouseArea.qml">/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyMouseArea.qml</file>
     <file alias="TabComponents/MyTabControl.qml">/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/TabComponents/MyTabControl.qml</file>
     <file alias="TabComponents/MyTabControlHorNormal.qml">/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/TabComponents/MyTabControlHorNormal.qml</file>
+    <file alias="TabComponents/MyTabControlHorSpecial.qml">/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/TabComponents/MyTabControlHorSpecial.qml</file>
     <file alias="assets.qrc">/home/qtnweb/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/assets.qrc</file>
   </qresource>
 </RCC>

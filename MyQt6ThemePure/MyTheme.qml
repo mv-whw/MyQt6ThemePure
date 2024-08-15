@@ -68,4 +68,7 @@ Item {
     property int normalTabControlHorHeight: 40
     property int normalTabButtonHorWidth: 150
 
+    property int specialTabControlHorHeight: 80
+
+
 }

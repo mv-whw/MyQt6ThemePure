@@ -10,7 +10,7 @@ MyTabControl {
     property int widthOfTab: MyTheme.normalTabButtonHorWidth
 
     onAllowClosingChanged: {
-        for(myNorHorFlick.normalTabs!==null)
+        if(myNorHorFlick.normalTabs!==null && myNorHorFlick.normalTabs.length!==0)
             if(myNorHorFlick.normalTabs.length>0)
             {
                 let butCount=myNorHorFlick.normalTabs.length
