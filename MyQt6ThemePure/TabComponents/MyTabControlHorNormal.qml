@@ -50,7 +50,7 @@ MyTabControl {
             "notSelectedTabTitleColor":myTabControlHorizontalNormal.notSelectedTextAndIconColor,
             "selectedTabTitleColor":myTabControlHorizontalNormal.selectedTextAndIconColor
         }
-        var objButton=myNorHorFlick.com.createObject(myNorHorTabContainer,comSet)
+        let objButton=myNorHorFlick.com.createObject(myNorHorTabContainer,comSet)
         myNorHorFlick.normalTabs.push(objButton)
         myNorHorFlick.normalTabs[myNorHorFlick.normalTabs.length-1].selectedItem.connect(function(){
             myTabControlHorizontalNormal.setSelectedIndex(myTabControlHorizontalNormal.returnSelectedIndex(objButton))
