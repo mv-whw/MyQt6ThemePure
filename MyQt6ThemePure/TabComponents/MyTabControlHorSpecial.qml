@@ -34,7 +34,10 @@ MyTabControl{
             "selectedTabTitleColor":myTabControlHorizontalNormal.selectedTextAndIconColo
         }
         let objSpecial=myTabControlHorSpecial.com.createObject(myTabHorRow,specProp)
+        if(objSpecial===null)
+            return false
         specialTabs.push(objSpecial)
+        return true
     }
 
     function resizeButtons(): bool
