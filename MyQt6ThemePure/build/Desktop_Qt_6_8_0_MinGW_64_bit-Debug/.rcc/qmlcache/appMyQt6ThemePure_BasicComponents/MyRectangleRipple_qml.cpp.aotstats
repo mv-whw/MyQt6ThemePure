@@ -1,0 +1,116 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 425,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 134,
+                        "errorMessage": "",
+                        "functionName": "radius",
+                        "line": 21
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 18,
+                        "durationMicroseconds": 409,
+                        "errorMessage": "",
+                        "functionName": "visible",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 163,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 22
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 424,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 44
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 230,
+                        "errorMessage": "",
+                        "functionName": "onLeftClicked",
+                        "line": 48
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 25,
+                        "durationMicroseconds": 231,
+                        "errorMessage": "",
+                        "functionName": "onRightClicked",
+                        "line": 49
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 393,
+                        "errorMessage": "",
+                        "functionName": "onEntered",
+                        "line": 50
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 19,
+                        "durationMicroseconds": 589,
+                        "errorMessage": "",
+                        "functionName": "onExited",
+                        "line": 54
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 21,
+                        "durationMicroseconds": 166,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 62
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 855,
+                        "errorMessage": "",
+                        "functionName": "to",
+                        "line": 66
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 2039,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant stored as QJSValue -> (component in C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MyRectangleRipple.qml)::parentBaseColor with type QColor (stored as QVariant)",
+                        "functionName": "onStarted",
+                        "line": 68
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 316,
+                        "errorMessage": "",
+                        "functionName": "onStopped",
+                        "line": 75
+                    }
+                ],
+                "filepath": "C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MyRectangleRipple.qml"
+            }
+        ],
+        "moduleId": "MyQt6ThemePure(appMyQt6ThemePure)"
+    }
+]

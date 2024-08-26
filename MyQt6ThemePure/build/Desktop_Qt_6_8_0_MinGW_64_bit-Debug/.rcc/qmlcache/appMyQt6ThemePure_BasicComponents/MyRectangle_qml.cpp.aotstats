@@ -1,0 +1,44 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 26,
+                        "durationMicroseconds": 37968,
+                        "errorMessage": "",
+                        "functionName": "onRealRadiusChanged",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 25,
+                        "durationMicroseconds": 1426,
+                        "errorMessage": "",
+                        "functionName": "onRealWidthChanged",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 26,
+                        "durationMicroseconds": 1249,
+                        "errorMessage": "",
+                        "functionName": "onRealHeightChanged",
+                        "line": 18
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 1659,
+                        "errorMessage": "",
+                        "functionName": "onRealBorderWidthChanged",
+                        "line": 21
+                    }
+                ],
+                "filepath": "C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MyRectangle.qml"
+            }
+        ],
+        "moduleId": "MyQt6ThemePure(appMyQt6ThemePure)"
+    }
+]

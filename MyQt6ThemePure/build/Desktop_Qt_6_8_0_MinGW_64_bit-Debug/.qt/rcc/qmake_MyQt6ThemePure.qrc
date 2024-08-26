@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/MyQt6ThemePure">
+    <file alias="qmldir">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MyQt6ThemePure/qmldir</file>
+  </qresource>
+</RCC>
+

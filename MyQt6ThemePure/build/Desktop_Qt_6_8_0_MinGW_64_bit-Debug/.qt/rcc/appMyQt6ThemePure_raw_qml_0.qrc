@@ -1,0 +1,42 @@
+<RCC>
+  <qresource prefix="/qt/qml/MyQt6ThemePure/">
+    <file alias="Main.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/Main.qml</file>
+    <file alias="MyTheme.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/MyTheme.qml</file>
+    <file alias="BasicComponents/MyApplicationWindow.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyApplicationWindow.qml</file>
+    <file alias="BasicComponents/MyLabel.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyLabel.qml</file>
+    <file alias="BasicComponents/MyRectangle.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyRectangle.qml</file>
+    <file alias="BasicComponents/MyRippleMouseArea.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyRippleMouseArea.qml</file>
+    <file alias="BasicComponents/MyButton.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyButton.qml</file>
+    <file alias="BasicComponents/MyCheckBox.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyCheckBox.qml</file>
+    <file alias="BasicComponents/MyColumn.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyColumn.qml</file>
+    <file alias="BasicComponents/MyRow.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyRow.qml</file>
+    <file alias="BasicComponents/MyFlow.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyFlow.qml</file>
+    <file alias="BasicComponents/MyComboBox.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyComboBox.qml</file>
+    <file alias="BasicComponents/MyDataCheckItem.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyDataCheckItem.qml</file>
+    <file alias="BasicComponents/MyFlickable.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyFlickable.qml</file>
+    <file alias="BasicComponents/MyFrame.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyFrame.qml</file>
+    <file alias="BasicComponents/MyGroupBox.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyGroupBox.qml</file>
+    <file alias="BasicComponents/MyImage.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyImage.qml</file>
+    <file alias="BasicComponents/MyIcon.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyIcon.qml</file>
+    <file alias="BasicComponents/MyBusyIndicator.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyBusyIndicator.qml</file>
+    <file alias="BasicComponents/MyPage.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyPage.qml</file>
+    <file alias="BasicComponents/MyProgresBar.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyProgresBar.qml</file>
+    <file alias="BasicComponents/MySlider.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MySlider.qml</file>
+    <file alias="BasicComponents/MyRangeSlider.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyRangeSlider.qml</file>
+    <file alias="BasicComponents/MySwitch.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MySwitch.qml</file>
+    <file alias="BasicComponents/MyTextField.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyTextField.qml</file>
+    <file alias="BasicComponents/MyTextArea.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyTextArea.qml</file>
+    <file alias="ComplexComponents/MyComplexProgresBar.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/ComplexComponents/MyComplexProgresBar.qml</file>
+    <file alias="ComplexComponents/MySelectCards.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/ComplexComponents/MySelectCards.qml</file>
+    <file alias="BasicComponents/MyTab.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyTab.qml</file>
+    <file alias="TabComponents/MyNormalTab.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/TabComponents/MyNormalTab.qml</file>
+    <file alias="TabComponents/MySpecialTab.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/TabComponents/MySpecialTab.qml</file>
+    <file alias="BasicComponents/MyRectangleRipple.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyRectangleRipple.qml</file>
+    <file alias="BasicComponents/MyMouseArea.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyMouseArea.qml</file>
+    <file alias="TabComponents/MyTabControl.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/TabComponents/MyTabControl.qml</file>
+    <file alias="TabComponents/MyTabControlHorNormal.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/TabComponents/MyTabControlHorNormal.qml</file>
+    <file alias="TabComponents/MyTabControlHorSpecial.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/TabComponents/MyTabControlHorSpecial.qml</file>
+    <file alias="assets.qrc">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/assets.qrc</file>
+  </qresource>
+</RCC>
+

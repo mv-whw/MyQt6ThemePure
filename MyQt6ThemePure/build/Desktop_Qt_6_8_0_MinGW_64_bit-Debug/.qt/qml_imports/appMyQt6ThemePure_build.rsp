@@ -1,0 +1,14 @@
+-rootPath
+C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure
+-cmake-output
+-output-file
+C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/qml_imports/appMyQt6ThemePure_build.cmake
+-importPath
+C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MyQt6ThemePure
+-importPath
+C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug
+-importPath
+C:/Qt/6.8.0/mingw_64/qml
+-qrcFiles
+C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/rcc/qmake_MyQt6ThemePure.qrc
+C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/rcc/appMyQt6ThemePure_raw_qml_0.qrc

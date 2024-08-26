@@ -1,0 +1,132 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 37,
+                        "durationMicroseconds": 4056,
+                        "errorMessage": "",
+                        "functionName": "dpIndex",
+                        "line": 10
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 37,
+                        "durationMicroseconds": 952,
+                        "errorMessage": "",
+                        "functionName": "spIndex",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 54,
+                        "durationMicroseconds": 1081,
+                        "errorMessage": "",
+                        "functionName": "defaultWindowPageBackgroundColor",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 39,
+                        "durationMicroseconds": 419,
+                        "errorMessage": "",
+                        "functionName": "isWindows",
+                        "line": 21
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 37,
+                        "durationMicroseconds": 250,
+                        "errorMessage": "",
+                        "functionName": "isLinux",
+                        "line": 22
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 37,
+                        "durationMicroseconds": 276,
+                        "errorMessage": "",
+                        "functionName": "isMacOs",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 36,
+                        "durationMicroseconds": 367,
+                        "errorMessage": "",
+                        "functionName": "isWasm",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 39,
+                        "durationMicroseconds": 267,
+                        "errorMessage": "",
+                        "functionName": "isAndroid",
+                        "line": 25
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 245,
+                        "errorMessage": "",
+                        "functionName": "isIos",
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 39,
+                        "durationMicroseconds": 464,
+                        "errorMessage": "",
+                        "functionName": "isDesktop",
+                        "line": 27
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 38,
+                        "durationMicroseconds": 235,
+                        "errorMessage": "",
+                        "functionName": "isMobile",
+                        "line": 28
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 39,
+                        "durationMicroseconds": 320,
+                        "errorMessage": "",
+                        "functionName": "isOtherOs",
+                        "line": 29
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 43,
+                        "durationMicroseconds": 653,
+                        "errorMessage": "",
+                        "functionName": "defaultLabelFontColor",
+                        "line": 34
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 54,
+                        "durationMicroseconds": 10119,
+                        "errorMessage": "",
+                        "functionName": "defaultMinimumButtonWidth",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 55,
+                        "durationMicroseconds": 1205,
+                        "errorMessage": "",
+                        "functionName": "defaultMinimumButtonHeight",
+                        "line": 40
+                    }
+                ],
+                "filepath": "C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MyTheme.qml"
+            }
+        ],
+        "moduleId": "MyQt6ThemePure(appMyQt6ThemePure)"
+    }
+]
