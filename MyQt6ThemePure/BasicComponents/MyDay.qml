@@ -18,6 +18,4 @@ MyRectangle {
         text: myDay.dayValue
         isBold: myDay.isCurrentDay
     }
-
-
 }
