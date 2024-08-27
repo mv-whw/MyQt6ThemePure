@@ -36,6 +36,7 @@
     <file alias="TabComponents/MyTabControl.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/TabComponents/MyTabControl.qml</file>
     <file alias="TabComponents/MyTabControlHorNormal.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/TabComponents/MyTabControlHorNormal.qml</file>
     <file alias="TabComponents/MyTabControlHorSpecial.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/TabComponents/MyTabControlHorSpecial.qml</file>
+    <file alias="BasicComponents/MyDay.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyDay.qml</file>
     <file alias="assets.qrc">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/assets.qrc</file>
   </qresource>
 </RCC>
