@@ -3,10 +3,10 @@ import QtQuick.Controls.Basic
 import "../"
 Flow {
     id: myFlow
-    anchors.fill: parent
 
-    property int realPading: 10
-    property int realSpacing: 10
+
+    property int realPading: 0
+    property int realSpacing: 0
 
     onRealPadingChanged: {
         myFlow.padding=MyTheme.useDpValues? Math.ceil(MyTheme.dpIndex*myFlow.realPading):myFlow.realPading

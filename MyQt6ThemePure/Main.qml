@@ -8,6 +8,22 @@ MyApplicationWindow {
     visible: true
     title: qsTr("Hello World")
 
+    MyColumn
+    {
+        realSpacing: 10
+        width: 400
+
+        MyButton{text: "dodaj tab";onClicked: tabC.addTab("test1","",false)}
+        MyTabControlHorNormal{
+            id: tabC
+            realHeight: 80
+            realWidth: 400
+            Component.onCompleted: {
+
+
+            }
+        }
+    }
 
     // Rectangle{
     //     color:"dodgerblue"
@@ -24,27 +40,27 @@ MyApplicationWindow {
     //     colorizationColor: "black"
     // }
     // }
-    MyColumn
-    {
-        realSpacing: 10
-        MyTabControlHorNormal{
+    // MyColumn
+    // {
+    //     realSpacing: 10
+    //     MyTabControlHorNormal{
 
-            Component.onCompleted: {
-                addTab("test","",false)
-                addTab("to je dolgi tekst za test","",false)
-                addTab("test2","qrc:/test.svg",false)
-                addTab("to je dolgi tekst za test2","qrc:/test.svg",false)
-            }
-        }
+    //         Component.onCompleted: {
+    //             addTab("test","",false)
+    //             addTab("to je dolgi tekst za test","",false)
+    //             addTab("test2","qrc:/test.svg",false)
+    //             addTab("to je dolgi tekst za test2","qrc:/test.svg",false)
+    //         }
+    //     }
 
-        MyTabControlHorNormal{
-            //allowClosing: false
-            Component.onCompleted: {
-                addTab("test2","qrc:/test.svg",false)
-                addTab("to je dolgi tekst za test2","qrc:/test.svg",false)
-                addTab("test","",false)
-                addTab("to je dolgi tekst za test","",false)
-            }
-        }
-    }
+    //     MyTabControlHorNormal{
+    //         //allowClosing: false
+    //         Component.onCompleted: {
+    //             addTab("test2","qrc:/test.svg",false)
+    //             addTab("to je dolgi tekst za test2","qrc:/test.svg",false)
+    //             addTab("test","",false)
+    //             addTab("to je dolgi tekst za test","",false)
+    //         }
+    //     }
+    // }
 }

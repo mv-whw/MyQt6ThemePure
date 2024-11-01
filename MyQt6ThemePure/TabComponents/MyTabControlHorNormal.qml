@@ -7,7 +7,9 @@ MyTabControl {
     width: parent.width
     color: "lightblue"
     allowClosing: true
+
     property int widthOfTab: MyTheme.normalTabButtonHorWidth
+    property Component com: Qt.createComponent("MyNormalTab.qml")
 
     onAllowClosingChanged: {
         if(myNorHorFlick.normalTabs!==null && myNorHorFlick.normalTabs.length!==0)
@@ -24,7 +26,7 @@ MyTabControl {
         flickVertical: false
         contentWidth: myNorHorTabContainer.width
         property var normalTabs: []
-        property Component com: Qt.createComponent("MyNormalTab.qml")
+
         MyRow{
             id: myNorHorTabContainer
         }
@@ -50,7 +52,9 @@ MyTabControl {
             "notSelectedTabTitleColor":myTabControlHorizontalNormal.notSelectedTextAndIconColor,
             "selectedTabTitleColor":myTabControlHorizontalNormal.selectedTextAndIconColor
         }
-        let objButton=myNorHorFlick.com.createObject(myNorHorTabContainer,comSet)
+        if(myTabControlHorizontalNormal.com.status!==Component.Ready)
+            console.log("error"+myTabControlHorizontalNormal.com.errorString())
+        let objButton=myTabControlHorizontalNormal.com.createObject(myNorHorTabContainer,comSet)
         if(objButton!==null)
         {
             myNorHorFlick.normalTabs.push(objButton)

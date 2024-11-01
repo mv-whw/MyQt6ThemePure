@@ -4,6 +4,15 @@ import "../BasicComponents"
 MyTab {
     id: mySpecialTab
 
+
+    onClicked: {
+        if(!mySpecialTab.isSelected)
+        {
+            mySpecialTab.selectedItem()
+            mySpecialTab.isSelected=true
+        }
+    }
+
     MyColumn
     {
         realPading: 5

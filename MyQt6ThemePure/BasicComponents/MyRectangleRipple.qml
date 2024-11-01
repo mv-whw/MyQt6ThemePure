@@ -7,8 +7,9 @@ MyRectangle {
 
     property alias changeCursor: myRippleMouseArea.changeCursor
     property alias enableRightMouseButton: myRippleMouseArea.enableRightMouseButton
-    property alias changeColorOnHoverToDarker: myRippleMouseArea.changeColorOnHoverToDarker
+    property bool changeColorOnHoverToDarker: true
     property alias hoverEnabled: myRippleMouseArea.hoverEnabled
+
 
 
     signal clicked()
@@ -46,8 +47,6 @@ MyRectangle {
                         rippleRect.visible=true
                 }
             }
-            if(!myRippleMouseArea.isHovered)
-                rippleRect.visible=false
         }
 
         onClicked: {
@@ -65,16 +64,49 @@ MyRectangle {
             myRect.exited()
         }
 
-        PropertyAnimation
+        SequentialAnimation
         {
             id: rippledEffect
+
+
+            NumberAnimation {
+                target: rippleRect
+                property: "width"
+                duration: 250
+                from: 0
+                to: Math.max(myRect.width,myRect.height)*1.7
+            }
+            NumberAnimation {
+                target: rippleRect
+                property: "height"
+                duration: 250
+                from: 0
+                to: Math.max(myRect.width,myRect.height)*1.7
+            }
+
+            loops: 1
+            onStopped: {
+                if(myRect.hoverEnabled && myRippleMouseArea.isHovered)
+                {
+                    rippleRect.width=myRect.width
+                    rippleRect.height=myRect.height
+                }
+                else
+                    rippleRect.visible=false
+            }
+        }
+
+        PropertyAnimation
+        {
+            //id: rippledEffect
             target: rippleRect
             duration: 250
-            properties: ["width","height"]
+            properties: [rippleRect.width,rippleRect.height]
             from:0
             to: Math.max(myRect.width,myRect.height)*1.7
             loops: 1
             onStarted: {
+
             }
 
             onStopped: {

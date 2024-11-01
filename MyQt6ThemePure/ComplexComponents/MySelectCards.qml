@@ -16,7 +16,7 @@ MyRectangleRipple {
     hoverEnabled: MyTheme.isDesktop
 
     onEntered: {
-        if(hoverEnabled)
+        if(myCard.hoverEnabled)
         {
             if(myCardIconAnimationExited.running)
                 myCardIconAnimationExited.stop()

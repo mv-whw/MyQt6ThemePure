@@ -3,7 +3,7 @@ import QtQuick.Controls.Basic
 import "../"
 Column {
     id: myColumn
-    anchors.fill: parent
+
 
     property int realPading: 0
     property int realSpacing: 0

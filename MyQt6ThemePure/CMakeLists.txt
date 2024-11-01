@@ -59,6 +59,9 @@ qt_add_qml_module(appMyQt6ThemePure
         RESOURCES assets.qrc
         QML_FILES TabComponents/MyTabControlHorSpecial.qml
         QML_FILES BasicComponents/MyDay.qml
+        QML_FILES ColendarComponents/MyColendarNavButton.qml
+        QML_FILES ColendarComponents/MyColendarNavigationInfoBar.qml
+        QML_FILES ColendarComponents/MyColendarNavigationBar.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

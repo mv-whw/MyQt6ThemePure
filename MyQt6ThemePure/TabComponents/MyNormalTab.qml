@@ -13,14 +13,11 @@ MyTab
     signal close()
     color: myNormalTab.isSelected? myNormalTab.selectedTabColor:myNormalTab.notSelectedTabColor
 
-    MyMouseArea{
-        hoverEnabled: false
-        onClicked: {
-            if(!myNormalTab.isSelected)
-            {
-                myNormalTab.selectedItem()
-                myNormalTab.isSelected=true
-            }
+    onClicked: {
+        if(!myNormalTab.isSelected)
+        {
+            myNormalTab.selectedItem()
+            myNormalTab.isSelected=true
         }
     }
 

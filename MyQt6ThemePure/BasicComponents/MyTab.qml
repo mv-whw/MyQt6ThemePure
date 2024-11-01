@@ -17,7 +17,7 @@ import "../"
 
     signal selectedItem()
 }*/
-MyRectangle {
+MyRectangleRipple {
     id: myTab
     property string tabIconSource: ""
     property string tabTitle: ""

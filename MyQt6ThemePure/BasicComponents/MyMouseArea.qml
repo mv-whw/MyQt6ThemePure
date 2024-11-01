@@ -5,8 +5,6 @@ MouseArea {
 
     property bool changeCursor: true
     property bool enableRightMouseButton: false
-    property bool changeColorOnHoverToDarker: true
-    readonly property bool isParentRect: ((typeof(myMouseArea.parent)===typeof(MyRectangle)) || typeof(myMouseArea.parent)===typeof(Rectangle))
 
     signal leftClicked()
     signal rightClicked()
@@ -26,26 +24,5 @@ MouseArea {
                 myMouseArea.rightClicked()
             break
         }
-    }
-
-    onEntered: {
-        if(myMouseArea.hoverEnabled)
-            if(myMouseArea.isParentRect)
-            {
-                if(myMouseArea.changeColorOnHoverToDarker)
-                    myMouseArea.parent.color=Qt.darker(myMouseArea.parent.color,1.2)
-                else
-                    myMouseArea.parent.color=Qt.lighter(myMouseArea.parent.color,1.2)
-            }
-    }
-    onExited: {
-        if(myMouseArea.hoverEnabled)
-            if(myMouseArea.isParentRect)
-            {
-                if(!myMouseArea.changeColorOnHoverToDarker)
-                    myMouseArea.parent.color=Qt.darker(myMouseArea.parent.color,1.2)
-                else
-                    myMouseArea.parent.color=Qt.lighter(myMouseArea.parent.color,1.2)
-            }
     }
 }

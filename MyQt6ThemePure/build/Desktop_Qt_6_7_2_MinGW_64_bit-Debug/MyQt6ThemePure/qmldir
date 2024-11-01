@@ -38,4 +38,7 @@ MyTabControl 1.0 TabComponents/MyTabControl.qml
 MyTabControlHorNormal 1.0 TabComponents/MyTabControlHorNormal.qml
 MyTabControlHorSpecial 1.0 TabComponents/MyTabControlHorSpecial.qml
 MyDay 1.0 BasicComponents/MyDay.qml
+MyColendarNavButton 1.0 ColendarComponents/MyColendarNavButton.qml
+MyColendarNavigationInfoBar 1.0 ColendarComponents/MyColendarNavigationInfoBar.qml
+MyColendarNavigationBar 1.0 ColendarComponents/MyColendarNavigationBar.qml
 

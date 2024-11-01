@@ -5,8 +5,8 @@ Row {
     id: myRow
     anchors.fill: parent
 
-    property int realPading: 10
-    property int realSpacing: 10
+    property int realPading: 0
+    property int realSpacing: 0
 
     onRealPadingChanged: {
         myRow.padding=MyTheme.useDpValues? Math.ceil(MyTheme.dpIndex*myRow.realPading):myRow.realPading

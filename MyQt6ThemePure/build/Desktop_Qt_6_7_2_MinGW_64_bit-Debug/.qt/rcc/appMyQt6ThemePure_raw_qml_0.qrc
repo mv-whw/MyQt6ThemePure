@@ -37,6 +37,9 @@
     <file alias="TabComponents/MyTabControlHorNormal.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/TabComponents/MyTabControlHorNormal.qml</file>
     <file alias="TabComponents/MyTabControlHorSpecial.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/TabComponents/MyTabControlHorSpecial.qml</file>
     <file alias="BasicComponents/MyDay.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/BasicComponents/MyDay.qml</file>
+    <file alias="ColendarComponents/MyColendarNavButton.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/ColendarComponents/MyColendarNavButton.qml</file>
+    <file alias="ColendarComponents/MyColendarNavigationInfoBar.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/ColendarComponents/MyColendarNavigationInfoBar.qml</file>
+    <file alias="ColendarComponents/MyColendarNavigationBar.qml">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/ColendarComponents/MyColendarNavigationBar.qml</file>
     <file alias="assets.qrc">C:/Users/MV-WHW/Documents/GitHub/MyQt6ThemePure/MyQt6ThemePure/assets.qrc</file>
   </qresource>
 </RCC>
